@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "131003425341",
+    "firebase_url": "https://plantorg-30506.firebaseio.com",
+    "project_id": "plantorg-30506",
+    "storage_bucket": "plantorg-30506.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131003425341:android:37f1213e929e9ec6894054",
+        "android_client_info": {
+          "package_name": "com.plantOrg.sms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131003425341-n85bkcvk1qkr88m5gkal5ro4uiqcajda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.plantOrg.sms",
+            "certificate_hash": "4d1405e16c70d44e13dbbcc649a3cacac16584af"
+          }
+        },
+        {
+          "client_id": "131003425341-2t2ug4s60uufa2c4r2qkv4gnq2snbhp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA29Hk7t9V9kTeqcPMcN-t2V2_SXuGQ8vM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131003425341-2t2ug4s60uufa2c4r2qkv4gnq2snbhp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

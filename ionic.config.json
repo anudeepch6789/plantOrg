@@ -1,0 +1,7 @@
+{
+  "name": "plantOrg",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
