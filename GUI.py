@@ -14,6 +14,16 @@ import os
 from os.path import isfile, join
 # isGray = False
 
+class ImageLabel(QLabel):
+    def __init__(self, parent=None, flags=Qt.WindowFlags()):
+        super(ImageLabel, self).__init__(parent, flags)
+        self.bind_image = None
+
+    def setImage(self, image):
+        self.bind_image = ImageQt.ImageQt(image)
+        self.setPixmap(QPixmap.fromImage(self.bind_image))
+        # self.setScaledContents(True);
+        # self.setSizePolicy( QSizePolicy.Ignored, QSizePolicy.Ignored )
 class PaletteLabel(ImageLabel):
     def __init__(self, parent=None, flags=Qt.WindowFlags()):
         super(PaletteLabel, self).__init__(parent, flags)
